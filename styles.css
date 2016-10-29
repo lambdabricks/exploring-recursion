@@ -5,18 +5,34 @@ body, html {
 
 .workspace {
   background-color: #ddd;
-  margin: 10px;
 }
 
 .mainbrick {
   background-color: #bbb;
-  border: 1px solid #555;
   height: 500px;
   margin: 25px;
+  padding: 15px;
   width: 500px;
 }
 
 .inner-section {
   height: 150px;
+  position: relative;
   width: 100%;
+}
+
+.constant {
+  background-color: #8391d8;
+  border-radius: 50%;
+  display: inline-block;
+  line-height: 32px;
+  min-height: 32px;
+  min-width: 32px;
+  position: relative;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.constant-one {
+  left: 150px;
 }
