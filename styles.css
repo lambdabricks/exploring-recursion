@@ -50,11 +50,26 @@ div {
   line-height: 32px;
   min-height: 32px;
   min-width: 32px;
-  position: relative;
+  position: absolute;
   text-align: center;
   vertical-align: middle;
 }
 
 .constant-one {
   left: 150px;
+}
+
+
+.pipe {
+  background-color: #555;
+  display: inline-block;
+  position: relative;
+}
+
+.pipe-one {
+  height: 100px;
+  left: 63px;
+  top: -15px;
+  transform: skewX(20deg);
+  width: 20px
 }
