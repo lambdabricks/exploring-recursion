@@ -26,14 +26,15 @@ div {
 }
 
 .mainbrick-inputslots {
-  height: 25px;
+  height: 30px;
 }
 
 .mainbrick-slot {
   display: inline-block;
-  height: 25px;
+  height: 20px;
   margin-left: 60px;
-  width: 25px;
+  margin-top: 10px;
+  width: 20px;
 }
 
 .inner-section {
