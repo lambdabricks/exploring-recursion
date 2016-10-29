@@ -3,16 +3,37 @@ body, html {
   border: 0;
 }
 
+div {
+  box-sizing: border-box;
+}
+
 .workspace {
   background-color: #ddd;
 }
 
 .mainbrick {
-  background-color: #bbb;
-  height: 500px;
   margin: 25px;
+}
+
+.mainbrick-color {
+  background-color: #bbb;
+}
+
+.mainbrick-inner {
+  height: 500px;
   padding: 15px;
   width: 500px;
+}
+
+.mainbrick-inputslots {
+  height: 25px;
+}
+
+.mainbrick-slot {
+  display: inline-block;
+  height: 25px;
+  margin-left: 60px;
+  width: 25px;
 }
 
 .inner-section {
