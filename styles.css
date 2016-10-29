@@ -1,0 +1,22 @@
+body, html {
+  margin: 0;
+  border: 0;
+}
+
+.workspace {
+  background-color: #ddd;
+  margin: 10px;
+}
+
+.mainbrick {
+  background-color: #bbb;
+  border: 1px solid #555;
+  height: 500px;
+  margin: 25px;
+  width: 500px;
+}
+
+.inner-section {
+  height: 150px;
+  width: 100%;
+}
