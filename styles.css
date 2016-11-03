@@ -61,15 +61,29 @@ div {
 
 
 .pipe {
-  background-color: #555;
-  display: inline-block;
+  align-items: center;
+  display: inline-flex;
+  justify-content: center;
   position: relative;
+}
+
+.pipe-shape {
+  background-color: #8391d8;
+  height: 100%;
+  position: absolute;
+  width: 20px;
+}
+
+.pipe-value {
+  z-index: 100;
 }
 
 .pipe-one {
   height: 100px;
-  left: 63px;
+  left: 69px;
   top: -15px;
+}
+
+.pipe-one > .pipe-shape {
   transform: skewX(20deg);
-  width: 20px
 }
