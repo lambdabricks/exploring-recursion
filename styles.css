@@ -43,6 +43,47 @@ div {
   width: 100%;
 }
 
+.brick {
+  width: 100px;
+}
+
+.brick-body {
+  height: 35px;
+  line-height: 35px;
+  position: relative;
+  text-align: center;
+  vertical-align: middle;
+  width: 100px;
+}
+
+.brick-color {
+  background-color: #b39ddb;
+  box-shadow: 2px 2px 5px gray;
+}
+
+.brick-output {
+  position: relative;
+}
+
+.brick-slot {
+  display: inline-block;
+  height: 20px;
+  margin-left: 20px;
+  width: 20px;
+}
+
+.brick-slot:first-child:nth-last-child(1) {
+  margin-left: 40px;
+}
+
+.brick-slots {
+  display: flex;
+}
+
+.brick-minus {
+  margin-left: 120px;
+}
+
 .constant {
   background-color: #8391d8;
   border-radius: 50%;
