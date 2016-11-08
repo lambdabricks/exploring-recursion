@@ -50,13 +50,12 @@ div {
   line-height: 32px;
   min-height: 32px;
   min-width: 32px;
-  position: absolute;
   text-align: center;
   vertical-align: middle;
 }
 
 .constant-one {
-  left: 150px;
+  margin-left: 150px;
 }
 
 
@@ -64,7 +63,6 @@ div {
   align-items: center;
   display: inline-flex;
   justify-content: center;
-  position: relative;
 }
 
 .pipe-shape {
@@ -81,6 +79,7 @@ div {
 .pipe-one {
   height: 100px;
   left: 69px;
+  position: absolute;
   top: -15px;
 }
 
