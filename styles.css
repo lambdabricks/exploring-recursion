@@ -19,9 +19,9 @@ div {
   background-color: #bbb;
 }
 
-.mainbrick-inner {
+.mainbrick-body {
   height: 500px;
-  padding: 15px;
+  padding: 0 15px;
   width: 500px;
 }
 
@@ -38,9 +38,7 @@ div {
 }
 
 .inner-section {
-  height: 150px;
   position: relative;
-  width: 100%;
 }
 
 .brick {
@@ -81,7 +79,7 @@ div {
 }
 
 .brick-minus {
-  margin-left: 120px;
+  margin-left: 150px;
 }
 
 .constant-body {
@@ -108,14 +106,21 @@ div {
 }
 
 .constant-one {
-  margin-left: 150px;
+  margin-left: 195px;
+}
+
+.constant-one > .constant-body {
+  margin-top: 15px;
 }
 
 
 .pipe {
   align-items: center;
   display: inline-flex;
+  height: 65px;
   justify-content: center;
+  position: relative;
+  width: 20px;
 }
 
 .pipe-shape {
@@ -130,12 +135,20 @@ div {
 }
 
 .pipe-one {
-  height: 100px;
-  left: 69px;
+  height: 135px;
+  left: 106px;
   position: absolute;
-  top: -15px;
 }
 
 .pipe-one > .pipe-shape {
-  transform: skewX(20deg);
+  transform: skewX(36deg);
+}
+
+.pipe-two {
+  left: 210px;
+  top: -3px;
+}
+
+.pipe-three {
+  left: 190px;
 }
