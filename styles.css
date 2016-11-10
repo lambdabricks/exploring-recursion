@@ -127,6 +127,7 @@ div {
   background-color: #8391d8;
   height: 100%;
   position: absolute;
+  transform-origin: left top;
   width: 20px;
 }
 
@@ -136,12 +137,17 @@ div {
 
 .pipe-one {
   height: 135px;
-  left: 106px;
+  left: 45px;
   position: absolute;
 }
 
 .pipe-one > .pipe-shape {
-  transform: skewX(36deg);
+  transform: skewX(43deg);
+}
+
+.pipe-one > .pipe-value {
+  left: 63px;
+  position: relative;
 }
 
 .pipe-two {
