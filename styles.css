@@ -22,12 +22,15 @@ div {
 
 .mainbrick-body {
   display: inline-block;
-  height: 500px;
   padding: 0 55px;
 }
 
 .mainbrick-inputslots {
   height: 20px;
+}
+
+.mainbrick-outputslots > .mainbrick-slot {
+  margin-left: 95px;
 }
 
 .mainbrick-slot {
@@ -181,4 +184,8 @@ div {
 .pipe-five > .pipe-value {
   left: -45px;
   position: relative;
+}
+
+.pipe-six {
+  margin-left: 40px;
 }
