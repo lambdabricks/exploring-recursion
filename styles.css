@@ -79,6 +79,10 @@ div {
   display: flex;
 }
 
+.brick-fact {
+  margin-left: 150px;
+}
+
 .brick-minus {
   margin-left: 150px;
 }
