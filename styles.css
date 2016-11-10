@@ -21,9 +21,9 @@ div {
 }
 
 .mainbrick-body {
+  display: inline-block;
   height: 500px;
-  padding: 0 15px;
-  width: 500px;
+  padding: 0 55px;
 }
 
 .mainbrick-inputslots {
@@ -79,15 +79,11 @@ div {
 }
 
 .brick-fact {
-  margin-left: 150px;
+  margin-left: 110px;
 }
 
 .brick-minus {
-  margin-left: 150px;
-}
-
-.brick-times {
-  margin-left: 40px;
+  margin-left: 110px;
 }
 
 .constant-body {
@@ -114,7 +110,7 @@ div {
 }
 
 .constant-one {
-  margin-left: 195px;
+  margin-left: 155px;
 }
 
 .constant-one > .constant-body {
@@ -145,7 +141,7 @@ div {
 
 .pipe-one {
   height: 135px;
-  left: 60px;
+  left: 20px;
   position: absolute;
 }
 
@@ -159,16 +155,16 @@ div {
 }
 
 .pipe-two {
-  left: 210px;
+  left: 170px;
   top: -3px;
 }
 
 .pipe-three {
-  left: 190px;
+  left: 150px;
 }
 
 .pipe-four {
-  left: 190px;
+  left: 150px;
   position: relative;
 }
 
@@ -183,6 +179,6 @@ div {
 
 .pipe-five {
   height: 415px;
-  left: 60px;
+  left: 20px;
   position: absolute;
 }
