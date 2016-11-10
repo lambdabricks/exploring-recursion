@@ -140,45 +140,45 @@ div {
 }
 
 .pipe-one {
+  height: 415px;
+  left: 20px;
+  position: absolute;
+}
+
+.pipe-two {
   height: 135px;
   left: 20px;
   position: absolute;
 }
 
-.pipe-one > .pipe-shape {
+.pipe-two > .pipe-shape {
   transform: skewX(39deg);
 }
 
-.pipe-one > .pipe-value {
+.pipe-two > .pipe-value {
   left: 55px;
   position: relative;
 }
 
-.pipe-two {
+.pipe-three {
   left: 170px;
   top: -3px;
 }
 
-.pipe-three {
-  left: 150px;
-}
-
 .pipe-four {
   left: 150px;
-  position: relative;
-}
-
-.pipe-four > .pipe-shape {
-  transform: skewX(-54deg);
-}
-
-.pipe-four > .pipe-value {
-  left: -45px;
-  position: relative;
 }
 
 .pipe-five {
-  height: 415px;
-  left: 20px;
-  position: absolute;
+  left: 150px;
+  position: relative;
+}
+
+.pipe-five > .pipe-shape {
+  transform: skewX(-54deg);
+}
+
+.pipe-five > .pipe-value {
+  left: -45px;
+  position: relative;
 }
