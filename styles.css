@@ -9,6 +9,7 @@ div {
 
 .workspace {
   background-color: #ddd;
+  overflow: hidden;
 }
 
 .mainbrick {
