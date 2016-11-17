@@ -55,13 +55,6 @@ div {
   width: 100px;
 }
 
-.brick-expanded > .brick-body {
-  background-color: #ffcc80;
-  height: auto;
-  padding: 0 20px;
-  width: auto;
-}
-
 .brick-color {
   background-color: #b39ddb;
   box-shadow: 2px 2px 5px gray;
@@ -69,10 +62,11 @@ div {
 
 .brick-name {
   font-size: 20px;
-  position: relative;
-  text-align: center;
+  left: 50%;
+  position: absolute;;
   top: 50%;
-  transform: translateY(-50%);
+  transform: translate(-50%, -50%);
+  transition: left 500ms, top 500ms;
 }
 
 .brick-output {
@@ -92,6 +86,18 @@ div {
 
 .brick-slots {
   display: flex;
+}
+
+.brick-expanded > .brick-body {
+  background-color: #ffcc80;
+  height: auto;
+  padding: 0 20px;
+  width: auto;
+}
+
+.brick-expanded > .brick-body > .brick-name {
+  left: 43%;
+  top: -2%;
 }
 
 .brick-fact {
