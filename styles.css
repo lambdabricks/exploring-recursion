@@ -45,17 +45,22 @@ div {
 }
 
 .brick {
-  width: 100px;
+  width: auto;
 }
 
 .brick-body {
-  font-size: 20px;
+  /*font-size: 20px;*/
   height: 35px;
-  line-height: 35px;
   position: relative;
-  text-align: center;
-  vertical-align: middle;
+  transition: height 500ms, width 500ms;
   width: 100px;
+}
+
+.brick-expanded > .brick-body {
+  background-color: #ffcc80;
+  height: auto;
+  padding: 0 20px;
+  width: auto;
 }
 
 .brick-color {
@@ -144,7 +149,7 @@ div {
 }
 
 .pipe-one {
-  height: 415px;
+  height: 100%;
   left: 20px;
   position: absolute;
 }
