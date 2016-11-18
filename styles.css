@@ -98,12 +98,10 @@ div {
   position: relative;
 }
 
-.brick-expandable:before {
+.brick-expand-icon {
   align-items: center;
   border: 1px solid #525252;
-  box-sizing: border-box;
   color: #525252;
-  content: '+';
   cursor: pointer;
   display: inline-flex;
   font-size: 22px;
@@ -114,6 +112,14 @@ div {
   text-align: center;
   top: 1px;
   width: 19px;
+}
+
+.brick-expand-icon:before {
+  content: '+';
+}
+
+.brick-expanded > .brick-expand-icon:before {
+  content: '–';
 }
 
 .brick-expanded > .brick-body {

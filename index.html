@@ -72,6 +72,9 @@
             <div>
 
               <div class="brick brick-expandable brick-fact">
+
+                <div class="brick-expand-icon"></div>
+
                 <div class="brick-slots">
                   <div class="brick-color brick-slot"></div>
                 </div>
@@ -228,5 +231,18 @@
 
     </div>
 
+    <script type="text/javascript">
+
+      HTMLCollection.prototype.forEach = Array.prototype.forEach;
+
+      var expandables = document.getElementsByClassName('brick-expand-icon');
+
+      expandables.forEach(function(element) {
+        element.addEventListener('click', function() {
+          element.parentElement.classList.toggle('brick-expanded');
+        });
+      });
+
+    </script>
   </body>
 </html>
