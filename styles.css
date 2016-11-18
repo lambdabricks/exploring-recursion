@@ -94,6 +94,28 @@ div {
   display: flex;
 }
 
+.brick-expandable {
+  position: relative;
+}
+
+.brick-expandable:before {
+  align-items: center;
+  border: 1px solid #525252;
+  box-sizing: border-box;
+  color: #525252;
+  content: '+';
+  cursor: pointer;
+  display: inline-flex;
+  font-size: 22px;
+  height: 19px;
+  justify-content: center;
+  left: -19px;
+  position: absolute;
+  text-align: center;
+  top: 1px;
+  width: 19px;
+}
+
 .brick-expanded > .brick-body {
   background-color: #ffcc80;
   height: auto;
