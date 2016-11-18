@@ -51,8 +51,14 @@ div {
 .brick-body {
   height: 35px;
   position: relative;
-  transition: height 500ms, width 500ms;
+  transition: background-color 500ms, height 500ms, width 500ms;
   width: 100px;
+}
+
+.brick-body > .brick-body-expanded {
+  display: none;
+  opacity: 0;
+  transition: opacity 500ms 500ms;
 }
 
 .brick-color {
@@ -93,6 +99,11 @@ div {
   height: auto;
   padding: 0 20px;
   width: auto;
+}
+
+.brick-expanded > .brick-body > .brick-body-expanded {
+  display: block;
+  opacity: 1;
 }
 
 .brick-expanded > .brick-body > .brick-name {
