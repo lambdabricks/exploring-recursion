@@ -29,10 +29,6 @@ div {
   height: 20px;
 }
 
-.mainbrick-outputslots > .mainbrick-slot {
-  margin-left: 95px;
-}
-
 .mainbrick-slot {
   display: inline-block;
   height: 20px;
@@ -197,6 +193,7 @@ div {
 }
 
 .pipe-value {
+  position: relative;
   z-index: 100;
 }
 
@@ -218,7 +215,6 @@ div {
 
 .pipe-two > .pipe-value {
   left: 55px;
-  position: relative;
 }
 
 .pipe-three {
@@ -241,9 +237,16 @@ div {
 
 .pipe-five > .pipe-value {
   left: -45px;
-  position: relative;
 }
 
 .pipe-six {
   margin-left: 40px;
+}
+
+.pipe-six > .pipe-shape {
+  transform: skewX(-17deg);
+}
+
+.pipe-six > .pipe-value {
+  left: -10px;
 }
