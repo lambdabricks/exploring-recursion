@@ -256,3 +256,7 @@ div {
 .pipe-six > .pipe-value {
   left: -10px;
 }
+
+.pipe-seven {
+  margin-left: 20px;
+}
