@@ -68,7 +68,6 @@ div {
   position: absolute;;
   top: 50%;
   transform: translate(-50%, -50%);
-  transition: left 500ms, top 500ms;
 }
 
 .brick-output {
@@ -92,6 +91,13 @@ div {
 
 .brick-expandable {
   position: relative;
+}
+
+.brick-expandable > .brick-body > .brick-name {
+  left: 50px;
+  top: 17px;
+  transition: left 500ms, top 500ms;
+  z-index: 200;
 }
 
 .brick-expand-icon {
@@ -131,8 +137,8 @@ div {
 }
 
 .brick-expanded > .brick-body > .brick-name {
-  left: 43%;
-  top: -2%;
+  left: 105px;
+  top: -12px;
 }
 
 .brick-fact {
