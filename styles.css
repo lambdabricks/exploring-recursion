@@ -142,11 +142,11 @@ div {
 }
 
 .brick-fact {
-  margin-left: 110px;
+  margin-left: 54px;
 }
 
 .brick-minus {
-  margin-left: 110px;
+  margin-left: 54px;
 }
 
 .constant-body {
@@ -173,11 +173,11 @@ div {
 }
 
 .constant-one {
-  margin-left: 155px;
+  margin-left: 77px;
 }
 
 .constant-one > .constant-body {
-  margin-top: 15px;
+  margin-top: 7px;
 }
 
 
@@ -206,13 +206,13 @@ div {
 
 .pipe-one {
   height: 100%;
-  left: 20px;
+  left: 10px;
   position: absolute;
 }
 
 .pipe-two {
-  height: 135px;
-  left: 20px;
+  height: 67px;
+  left: 10px;
   position: absolute;
 }
 
@@ -221,20 +221,19 @@ div {
 }
 
 .pipe-two > .pipe-value {
-  left: 55px;
+  left: 27px;
 }
 
 .pipe-three {
-  left: 170px;
-  top: -3px;
+  left: 84px;
 }
 
 .pipe-four {
-  left: 150px;
+  left: 74px;
 }
 
 .pipe-five {
-  left: 150px;
+  left: 74px;
   position: relative;
 }
 
@@ -243,11 +242,11 @@ div {
 }
 
 .pipe-five > .pipe-value {
-  left: -45px;
+  left: -22px;
 }
 
 .pipe-six {
-  margin-left: 40px;
+  margin-left: 20px;
 }
 
 .pipe-six > .pipe-shape {
@@ -255,9 +254,9 @@ div {
 }
 
 .pipe-six > .pipe-value {
-  left: -10px;
+  left: -5px;
 }
 
 .pipe-seven {
-  margin-left: 20px;
+  margin-left: 10px;
 }
