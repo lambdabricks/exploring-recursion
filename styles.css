@@ -33,6 +33,7 @@ div {
   display: inline-block;
   height: 10px;
   margin-left: 37px;
+  vertical-align: top;
   width: 10px;
 }
 
