@@ -45,10 +45,10 @@ div {
 }
 
 .brick-body {
-  height: 35px;
+  height: 17px;
   position: relative;
   transition: background-color 500ms, height 500ms, width 500ms;
-  width: 100px;
+  width: 50px;
 }
 
 .brick-body > .brick-body-expanded {
@@ -63,7 +63,7 @@ div {
 }
 
 .brick-name {
-  font-size: 20px;
+  font-size: 12px;
   left: 50%;
   position: absolute;;
   top: 50%;
@@ -76,13 +76,13 @@ div {
 
 .brick-slot {
   display: inline-block;
-  height: 20px;
-  margin-left: 20px;
-  width: 20px;
+  height: 10px;
+  margin-left: 10px;
+  width: 10px;
 }
 
 .brick-slot:first-child:nth-last-child(1) {
-  margin-left: 40px;
+  margin-left: 20px;
 }
 
 .brick-slots {
@@ -94,8 +94,8 @@ div {
 }
 
 .brick-expandable > .brick-body > .brick-name {
-  left: 50px;
-  top: 17px;
+  left: 25px;
+  top: 8px;
   transition: left 500ms, top 500ms;
   z-index: 200;
 }
@@ -106,14 +106,14 @@ div {
   color: #525252;
   cursor: pointer;
   display: inline-flex;
-  font-size: 22px;
-  height: 19px;
+  font-size: 13px;
+  height: 10px;
   justify-content: center;
-  left: -19px;
+  left: -10px;
   position: absolute;
   text-align: center;
   top: 1px;
-  width: 19px;
+  width: 10px;
 }
 
 .brick-expand-icon:before {
@@ -127,7 +127,7 @@ div {
 .brick-expanded > .brick-body {
   background-color: #ffcc80;
   height: auto;
-  padding: 0 20px;
+  padding: 0 10px;
   width: auto;
 }
 
@@ -137,8 +137,8 @@ div {
 }
 
 .brick-expanded > .brick-body > .brick-name {
-  left: 105px;
-  top: -12px;
+  left: 52px;
+  top: -6px;
 }
 
 .brick-fact {
