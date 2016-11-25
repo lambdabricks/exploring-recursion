@@ -199,6 +199,7 @@ div {
 }
 
 .pipe-value {
+  font-size: 13px;
   position: relative;
   z-index: 100;
 }
