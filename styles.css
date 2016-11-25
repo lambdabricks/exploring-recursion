@@ -184,10 +184,10 @@ div {
 .pipe {
   align-items: center;
   display: inline-flex;
-  height: 65px;
+  height: 32px;
   justify-content: center;
   position: relative;
-  width: 20px;
+  width: 10px;
 }
 
 .pipe-shape {
@@ -195,7 +195,7 @@ div {
   height: 100%;
   position: absolute;
   transform-origin: left top;
-  width: 20px;
+  width: 10px;
 }
 
 .pipe-value {
