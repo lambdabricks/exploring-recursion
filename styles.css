@@ -13,7 +13,7 @@ div {
 }
 
 .mainbrick {
-  margin: 25px;
+  margin: 12px;
 }
 
 .mainbrick-color {
@@ -22,18 +22,18 @@ div {
 
 .mainbrick-body {
   display: inline-block;
-  padding: 0 55px;
+  padding: 0 27px;
 }
 
-.mainbrick-inputslots {
-  height: 20px;
+.mainbrick-inputslots, .mainbrick-outputslots {
+  height: 10px;
 }
 
 .mainbrick-slot {
   display: inline-block;
-  height: 20px;
-  margin-left: 75px;
-  width: 20px;
+  height: 10px;
+  margin-left: 37px;
+  width: 10px;
 }
 
 .inner-section {
