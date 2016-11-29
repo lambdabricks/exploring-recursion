@@ -126,7 +126,7 @@ div {
 }
 
 .brick-expanded > .brick-body {
-  background-color: #ffcc80;
+  background-color: rgba(123, 123, 123, 0.2);
   height: auto;
   padding: 0 10px;
   width: auto;
@@ -140,6 +140,10 @@ div {
 .brick-expanded > .brick-body > .brick-name {
   left: 55px;
   top: -7px;
+}
+
+.brick-expanded > .brick-slots > .brick-slot {
+  background-color: rgba(123, 123, 123, 0.4);
 }
 
 .brick-fact {
